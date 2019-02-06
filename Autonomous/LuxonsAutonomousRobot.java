@@ -30,7 +30,8 @@ package org.firstinspires.ftc.teamcode.Autonomous;
 
 import com.disnodeteam.dogecv.CameraViewDisplay;
 import com.disnodeteam.dogecv.DogeCV;
-import com.disnodeteam.dogecv.detectors.roverrukus.GoldAlignDetector;
+//import com.disnodeteam.dogecv.detectors.roverrukus.GoldAlignDetector;
+//import org.firstinspires.ftc.teamcode.Autonomous.Gold;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
@@ -92,7 +93,7 @@ public class LuxonsAutonomousRobot {
 
     }
 
-    public GoldAlignDetector detector = new GoldAlignDetector();
+    public Gold detector = new Gold();
 
     //init loop
     public void init(HardwareMap hwMap) {

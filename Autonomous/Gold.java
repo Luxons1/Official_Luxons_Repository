@@ -1,4 +1,4 @@
-package com.disnodeteam.dogecv.detectors.roverrukus;
+package org.firstinspires.ftc.teamcode.Autonomous;
 
 import android.util.Log;
 
@@ -54,7 +54,7 @@ public class Gold extends DogeCVDetector {
      */
     public Gold() {
         super();
-        detectorName = "Gold Align Detector"; // Set the detector name
+        detectorName = "Gold Detector"; // Set the detector name
     }
 
 
