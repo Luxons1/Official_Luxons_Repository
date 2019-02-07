@@ -134,6 +134,8 @@ public class LuxonsAutonomousRobot {
         detector.ratioScorer.weight = 5; //
         detector.ratioScorer.perfectRatio = 1.0; // Ratio adjustment */
 
+        detector.setAlignSettings(25, 25);
+
         detector.enable();
 
         //Servo Set

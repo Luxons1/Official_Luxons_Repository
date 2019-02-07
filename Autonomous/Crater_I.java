@@ -106,11 +106,11 @@ public class Crater_I extends LinearOpMode {
         autoRobot.finishRun();
         idle();
 
-        autoRobot.runRobotRotations("back", 0.1);
+        /* autoRobot.runRobotRotations("back", 0.1);
         idle();
         sleep(1000);
         autoRobot.finishRun();
-        idle();
+        idle(); */
 
         autoRobot.goldAlign();
 
