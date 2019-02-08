@@ -30,8 +30,8 @@ package org.firstinspires.ftc.teamcode.Autonomous;
 
 import com.disnodeteam.dogecv.CameraViewDisplay;
 import com.disnodeteam.dogecv.DogeCV;
-//import com.disnodeteam.dogecv.detectors.roverrukus.GoldAlignDetector;
-//import org.firstinspires.ftc.teamcode.Autonomous.Gold;
+import com.disnodeteam.dogecv.detectors.roverrukus.GoldAlignDetector;
+import org.firstinspires.ftc.teamcode.Autonomous.Gold;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
@@ -133,8 +133,6 @@ public class LuxonsAutonomousRobot {
 
         detector.ratioScorer.weight = 5; //
         detector.ratioScorer.perfectRatio = 1.0; // Ratio adjustment */
-
-        detector.setAlignSettings(25, 25);
 
         detector.enable();
 
