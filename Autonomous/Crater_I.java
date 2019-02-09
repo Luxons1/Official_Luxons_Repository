@@ -17,7 +17,7 @@ public class Crater_I extends LinearOpMode {
     private double toCrater2 = (3.3*autoRobot.ratio);
     private double toCrater = (2.2*autoRobot.ratio);
     private double firstRun = (1.0*autoRobot.ratio);
-    private double runAhead = (3.0*autoRobot.ratio);
+    private double runAhead = (2.2*autoRobot.ratio);
 
     //Runs the OpMode
     @Override
@@ -61,13 +61,13 @@ public class Crater_I extends LinearOpMode {
         autoRobot.finishRun();
         idle(); */
 
-        autoRobot.runRobotRotations("front", 0.1);
+        autoRobot.runRobotRotations("front", 0.15);
         idle();
         sleep(1000);
         autoRobot.finishRun();
         idle();
 
-        autoRobot.shiftRobot("right", 0.8);
+        autoRobot.shiftRobot("right", 0.6);
         idle();
         sleep(1000);
         autoRobot.finishRun();
@@ -86,7 +86,7 @@ public class Crater_I extends LinearOpMode {
       autoRobot.goldAlign();
 
       if (autoRobot.goAhead == true) {
-        autoRobot.shiftRobot("left", 0.8);
+        autoRobot.shiftRobot("left", 0.5);
         idle();
         sleep(1000);
         autoRobot.finishRun();
@@ -100,9 +100,9 @@ public class Crater_I extends LinearOpMode {
       }
 
       else if (autoRobot.goAhead == false) {
-        autoRobot.shiftRobot("right", 2.3);
+        autoRobot.shiftRobot("right", 1.5);
         idle();
-        sleep(3000);
+        sleep(2000);
         autoRobot.finishRun();
         idle();
 
@@ -115,7 +115,7 @@ public class Crater_I extends LinearOpMode {
         autoRobot.goldAlign();
 
         if (autoRobot.goAhead == true) {
-          autoRobot.shiftRobot("left", 0.8);
+          autoRobot.shiftRobot("left", 0.5);
           idle();
           sleep(1000);
           autoRobot.finishRun();
@@ -146,6 +146,12 @@ public class Crater_I extends LinearOpMode {
           sleep(5000);
           autoRobot.finishRun();
           idle(); */
+
+          autoRobot.runRobotRotations("front", 0.4);
+          idle();
+          sleep(1000);
+          autoRobot.finishRun();
+          idle();
 
           autoRobot.turnRobot("left", 2.2);
           idle();
