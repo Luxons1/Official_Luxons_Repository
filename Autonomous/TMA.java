@@ -113,7 +113,7 @@ public class TMA extends LinearOpMode {
         }
 
         else if (autoRobot.goAhead == false) {
-            autoRobot.shiftRobot("right", 1.5);
+            autoRobot.shiftRobot("right", 1.8);
             idle();
             sleep(2000);
             autoRobot.finishRun();
