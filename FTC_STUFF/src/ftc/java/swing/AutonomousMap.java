@@ -20,7 +20,8 @@ public class AutonomousMap extends JFrame{
   static double startX, finishX, startY, finishY, currentX, currentY;
   static double leg1, leg2, distance, trueDistance, rotations;
   static double ratio = (144.0/740.0);
-  static double WHEEL_CIRC = 4.0;
+  static double WHEEL_DIAM = 4.0;	
+  static double WHEEL_CIRC = WHEEL_DIAM * Math.PI;
   
   public static void main(String[] args) {
 	AutonomousMap aMap = new AutonomousMap();    
