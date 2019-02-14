@@ -31,13 +31,16 @@ public class AutonomousMap extends JFrame{
 	  setTitle("Autonomous Mapping");
 	  setSize(760, 760);
 	  setLayout(null);
+	  
+	  setIconImage(new ImageIcon("C:\\Users\\rkola\\Desktop\\eclipse\\FTC_STUFF\\src\\ftc\\java\\swing\\LuxonsAMLogo.jpg").getImage());
+	  
 	  setVisible(true);
       setLocationRelativeTo(null);
 	  setResizable(false);
 	  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	  
 	  try {
-		setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("C:\\Users\\rkola\\Desktop\\eclipse\\FTC_STUFF\\src\\ftc\\java\\swing\\ftc2019.JPG")))));
+		setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("C:\\Users\\rkola\\Desktop\\eclipse\\FTC_STUFF\\src\\ftc\\java\\swing\\ftc2019.jpg")))));
 		pack();
 	  } 
 	  
